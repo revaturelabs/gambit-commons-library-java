@@ -1,5 +1,7 @@
 # gambit-commons-library-java
 
+[![Build Status](https://travis-ci.org/revaturelabs/gambit-commons-library-java.svg?branch=master)](https://travis-ci.org/revaturelabs/gambit-commons-library-java)
+
 Shared resources between gambit services.
 
 ## Version Control

@@ -17,6 +17,5 @@ public class Building {
     private Integer id;
     private String name;
     private Boolean active;
-    private Location location;
     private Set<Room> rooms;
 }

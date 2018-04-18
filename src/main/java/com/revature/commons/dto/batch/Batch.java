@@ -26,11 +26,12 @@ public class Batch {
     private Timestamp endDate;
     private BatchStatus status;
     private Curriculum curriculum;
-    private Skill focus;
+    private Skill skillType;
     private Set<Skill> skills;
     private Trainer trainer;
     private Trainer cotrainer;
     private BatchLocation batchLocation;
     private Location location;
     private Room room;
+    private Set<String> notes;
 }

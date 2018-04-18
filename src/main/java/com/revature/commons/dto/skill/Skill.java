@@ -1,9 +1,9 @@
-package commons.skill;
+package com.revature.commons.dto.skill;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import commons.batch.Batch;
-import commons.curriculum.Curriculum;
-import commons.trainer.Trainer;
+import com.revature.commons.dto.batch.Batch;
+import com.revature.commons.dto.curriculum.Curriculum;
+import com.revature.commons.dto.trainer.Trainer;
 import lombok.*;
 
 import java.util.Set;

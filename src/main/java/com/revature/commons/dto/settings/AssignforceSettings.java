@@ -1,8 +1,8 @@
-package commons.settings;
+package com.revature.commons.dto.settings;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import commons.location.Building;
-import commons.location.Room;
+import com.revature.commons.dto.location.Building;
+import com.revature.commons.dto.location.Room;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

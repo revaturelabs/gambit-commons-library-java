@@ -1,4 +1,4 @@
-package commons.location;
+package com.revature.commons.dto.location;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;

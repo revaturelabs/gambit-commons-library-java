@@ -1,8 +1,8 @@
-package commons.unavailable;
+package com.revature.commons.dto.unavailable;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import commons.location.Room;
-import commons.trainer.Trainer;
+import com.revature.commons.dto.location.Room;
+import com.revature.commons.dto.trainer.Trainer;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

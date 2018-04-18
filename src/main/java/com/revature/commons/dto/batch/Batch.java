@@ -1,11 +1,11 @@
-package commons.batch;
+package com.revature.commons.dto.batch;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import commons.curriculum.Curriculum;
-import commons.location.Location;
-import commons.location.Room;
-import commons.skill.Skill;
-import commons.trainer.Trainer;
+import com.revature.commons.dto.curriculum.Curriculum;
+import com.revature.commons.dto.location.Location;
+import com.revature.commons.dto.location.Room;
+import com.revature.commons.dto.skill.Skill;
+import com.revature.commons.dto.trainer.Trainer;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

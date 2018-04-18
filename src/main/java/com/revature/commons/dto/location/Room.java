@@ -1,7 +1,7 @@
-package commons.location;
+package com.revature.commons.dto.location;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import commons.unavailable.Unavailable;
+import com.revature.commons.dto.unavailable.Unavailable;
 import lombok.*;
 
 import java.util.Set;

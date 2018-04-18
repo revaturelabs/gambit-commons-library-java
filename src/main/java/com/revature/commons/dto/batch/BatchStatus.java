@@ -1,4 +1,4 @@
-package commons.batch;
+package com.revature.commons.dto.batch;
 
 public enum BatchStatus {
     SCHEDULED,

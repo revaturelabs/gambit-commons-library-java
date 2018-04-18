@@ -1,4 +1,4 @@
-package commons.trainer;
+package com.revature.commons.dto.trainer;
 
 public enum Tier {
     ROLE_VP,

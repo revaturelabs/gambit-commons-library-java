@@ -1,8 +1,8 @@
-package commons.batch;
+package com.revature.commons.dto.batch;
 
-import commons.location.Building;
-import commons.location.Location;
-import commons.location.Room;
+import com.revature.commons.dto.location.Building;
+import com.revature.commons.dto.location.Location;
+import com.revature.commons.dto.location.Room;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

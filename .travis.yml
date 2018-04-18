@@ -1,0 +1,15 @@
+language: java
+
+before_deploy:
+  - mvn clean package
+  - cd target
+  - zip gambit-commons-library-$(cat ../VERSION).jar.zip gambit-commons-library-$(cat ../VERSION).jar
+  - cd ..
+  - git tag "$(cat ./VERSION)"
+deploy:
+  provider: releases
+  api_key: "GITHUB_API_TOKEN"
+  file: target/gambit-commons-library-$(cat ./VERSION).jar.zip
+  skip_cleanup: true
+  on:
+    branch: master

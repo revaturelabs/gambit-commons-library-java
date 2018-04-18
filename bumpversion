@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+set -o errexit
+
+MVN_VERSION=$(mvn help:evaluate -Dexpression=project.version | grep -e '^[^\[]')
+
+MAJOR=`echo $MVN_VERSION | cut -d. -f1`
+MINOR=`echo $MVN_VERSION | cut -d. -f2`
+
+if [ "$1" == "major" ]; then
+    MAJOR=$(($MAJOR + 1))
+    MINOR=0
+elif [ "$1" == "minor" ]; then
+    MINOR=$(($MINOR + 1))
+else
+    echo "Invalid entry: please indicate major or minor release"
+fi
+
+VERSION="${MAJOR}.${MINOR}"
+
+mvn versions:set -DnewVersion=${VERSION}
+rm *.versionsBackup
+
+echo $VERSION > VERSION

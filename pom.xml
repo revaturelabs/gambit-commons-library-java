@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.revature</groupId>
-    <artifactId>gambit-commons-library-java</artifactId>
+    <artifactId>gambit-commons-library</artifactId>
     <version>0.1</version>
 
     <dependencies>

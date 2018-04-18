@@ -16,6 +16,7 @@ import java.util.Set;
 public class Location {
     private Integer id;
     private String name;
+    private String address;
     private String city;
     private String state;
     private Boolean active;

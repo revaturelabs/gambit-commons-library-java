@@ -12,8 +12,8 @@ import java.util.Set;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-@EqualsAndHashCode(exclude = {"skills"})
-@ToString(exclude = {"skills"})
+@EqualsAndHashCode(exclude = {"batches", "skills"})
+@ToString(exclude = {"batches", "skills"})
 public class Curriculum {
     private Integer id;
     private String name;

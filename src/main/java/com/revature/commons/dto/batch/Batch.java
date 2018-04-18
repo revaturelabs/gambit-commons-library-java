@@ -22,15 +22,16 @@ import java.util.Set;
 public class Batch {
     private Integer id;
     private String name;
-    private Timestamp startDate;
-    private Timestamp endDate;
-    private BatchStatus status;
-    private Curriculum curriculum;
-    private Skill focus;
-    private Set<Skill> skills;
     private Trainer trainer;
     private Trainer cotrainer;
-    private BatchLocation batchLocation;
+    private Skill skillType;
+    private TrainingType trainingType;
+    private Timestamp startDate;
+    private Timestamp endDate;
     private Location location;
     private Room room;
+    private Curriculum curriculum;
+    private Set<Skill> skills;
+    private Set<String> notes;
+    private BatchStatus status;
 }

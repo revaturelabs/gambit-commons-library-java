@@ -30,7 +30,6 @@ public class Batch {
     private Set<Skill> skills;
     private Trainer trainer;
     private Trainer cotrainer;
-    private BatchLocation batchLocation;
     private Location location;
     private Room room;
     private Set<String> notes;

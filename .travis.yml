@@ -8,7 +8,8 @@ before_deploy:
   - git tag "$(cat ./VERSION)"
 deploy:
   provider: releases
-  api_key: "GITHUB_API_TOKEN"
+  api_key:
+    secure: "RQx1x4y9V1Yb94mwubpxcRPHS+w0dFFzRTI588phRL6j7p2fkCVh10SPabdpsEnDogMijeEL8beTjcV9Y4fnszsn56gZte6/xGLB9zlcwa0RKPUVpph1ZCkhP1S0o29JPqjNB0UjVQu6PU/ys8AAc16YqR+wGa8JC7IuwEjMvjxD8cIQEc30KNcETenX6PcJztwa/96r1PAR6I4ye1LpzOh9usBBFIbMNqckYmyuL/MeGUSTbEMtlzEny+Sh0h4g+kP9GWNjFp7Dg+O56tE3r23AQLhbUQgi3DbVTuUE69mjffr87ACpNjlzQLMRx/4EjO4i9YSe+muXG+g+05dHHiUSez2SnIt9zIz5/YseA6M2WZQZgULK7KkEv7vnJpKM7bdRXrRIEw6P8xGzLawpeqFu00TX/rc2AtXlwMnx7Haedd+JqhhKPRjC6egjA8LtUP9JLvAmfWmATRh6q2vSk+jZDxOFYbUG9zCnKT8fT1TNk+UGq00ZOZwixRm/M40x/qh0EV/BimcO/BytvjcEfVSOlj0x/83VX6uPRTmkawz2NC7QRchgATHvY3vP3tDEiMtmpoclAoxAhoiqn26ZzdUIWc0QIV5dZWqDUXotCu4e0JiLV3jNUFtflLu0uYDIMPJeexIXJxS7safgI9V8cjEu3jjGLVCkVvOrDDctuRA="
   file: target/gambit-commons-library-$(cat ./VERSION).jar.zip
   skip_cleanup: true
   on:

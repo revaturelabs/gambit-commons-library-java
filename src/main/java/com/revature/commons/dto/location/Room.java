@@ -17,6 +17,6 @@ public class Room {
     private Integer id;
     private String name;
     private Boolean active;
-    private Building building;
+    private Location location;
     private Set<Unavailable> unavailabilities;
 }

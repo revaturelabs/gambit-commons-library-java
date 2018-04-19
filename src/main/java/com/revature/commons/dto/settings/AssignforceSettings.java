@@ -1,7 +1,7 @@
 package com.revature.commons.dto.settings;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.revature.commons.dto.location.Building;
+import com.revature.commons.dto.location.Location;
 import com.revature.commons.dto.location.Room;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -24,6 +24,6 @@ public class AssignforceSettings {
     private Integer maxBatchSize;
     private Integer trainerBreakDays;
     private Room defaultLocation;
-    private Building defaultBuilding;
+    private Location defaultBuilding;
     private String defaultNamePattern;
 }

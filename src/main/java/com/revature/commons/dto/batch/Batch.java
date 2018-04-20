@@ -4,7 +4,6 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.revature.commons.dto.curriculum.Curriculum;
 import com.revature.commons.dto.location.Location;
 import com.revature.commons.dto.location.Room;
-import com.revature.commons.dto.skill.Skill;
 import com.revature.commons.dto.trainer.Trainer;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -29,7 +28,6 @@ public class Batch {
     private Location location;
     private Room room;
     private Curriculum curriculum;
-    private Set<Skill> skills;
     private Set<String> notes;
     private BatchStatus status;
 }

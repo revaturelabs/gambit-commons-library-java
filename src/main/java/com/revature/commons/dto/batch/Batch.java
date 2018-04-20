@@ -24,8 +24,6 @@ public class Batch {
     private String name;
     private Trainer trainer;
     private Trainer cotrainer;
-    private Skill skillType;
-    private TrainingType trainingType;
     private Timestamp startDate;
     private Timestamp endDate;
     private Location location;

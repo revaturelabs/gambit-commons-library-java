@@ -2,7 +2,6 @@ package com.revature.commons.dto.batch;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.revature.commons.dto.curriculum.Curriculum;
-import com.revature.commons.dto.location.Location;
 import com.revature.commons.dto.location.Room;
 import com.revature.commons.dto.trainer.Trainer;
 import lombok.AllArgsConstructor;
@@ -25,7 +24,6 @@ public class Batch {
     private Trainer cotrainer;
     private Timestamp startDate;
     private Timestamp endDate;
-    private Location location;
     private Room room;
     private Curriculum curriculum;
     private Set<String> notes;
